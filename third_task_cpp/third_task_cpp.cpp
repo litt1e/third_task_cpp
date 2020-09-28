@@ -9,8 +9,6 @@ public:
 	int minutes;
 	friend bool operator> (const Time& t1, const Time& t2);
 	friend bool operator< (const Time& t1, const Time& t2);
-	friend bool operator>= (const Time& t1, const Time& t2);
-	friend bool operator<= (const Time& t1, const Time& t2);
 	friend bool operator== (const Time& t1, const Time& t2);
 	Time(int h, int m)
 	{
